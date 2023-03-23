@@ -16,6 +16,9 @@
       </v-container>
       <v-container fluid>
         <v-row class="ma-0">
+          <lyrics-display />
+        </v-row>
+        <v-row class="ma-0">
           <v-col cols="9" md="3" class="d-flex flex-row pa-0">
             <nuxt-link :to="'/fullscreen/playback'">
               <v-avatar
